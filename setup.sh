@@ -1,5 +1,14 @@
 #!/bin/sh
 
+apt-get install unzip
+apt-get install make
+apt-get install git
+apt-get install python-pip
+apt-get install python-netaddr
+apt-get install aptitude
+apt-get install g++
+apt-get install npm
+
 pip install Django
 pip install pygeoip
 pip install django-pagination
