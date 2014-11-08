@@ -42,13 +42,13 @@ mv rubenespadas-DionaeaFR-ae2a941 DionaeaFR
 cd /opt/
 wget http://geolite.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz
 gunzip GeoLiteCity.dat.gz
-mv GeoLiteCity.dat /opt/DionaeaFR/DionaeaFR/static
+mv GeoLiteCity.dat /opt/DionaeaFR/DionaeaFR/static/
 
 
 cd /opt/
 wget http://geolite.maxmind.com/download/geoip/database/GeoLiteCountry/GeoIP.dat.gz
 gunzip GeoIP.dat.gz
-mv GeoIP.dat /opt/DionaeaFR/DionaeaFR/static
+mv GeoIP.dat /opt/DionaeaFR/DionaeaFR/static/
 
 cd /opt/DionaeaFR/
 python manage.py collectstatic
